@@ -1,0 +1,30 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+
+title = "hugo-050-bug-repo"
+description = "See https://discourse.gohugo.io/t/hugo-0-50-fails-when-minify-is-enabled-on-content-that-worked-fine-in-hugo-0-48"
+
+[permalinks]
+    post = "/post/:slug/"
+
+enableGitInfo = true
+
+theme = "casper"
+paginate = 20
+summaryLength = 15
+
+[params]
+    hideHUGOSupport = true
+
+    author = "Jane Example"
+    authorlocation = "San Francisco"
+    authorwebsite = "https://example.com"
+
+    linkedinName = "jane-example-b033072"
+    instagramName = "example"
+    twitterName = "example"
+    githubName = "example"
+    flickrName = "example"
+
+    title = "Jane Example"
+    description = "a bunch of stuff I would have emailed you about"
